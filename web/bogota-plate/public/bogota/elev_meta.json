@@ -1,0 +1,27 @@
+{
+  "elev_min_m": -32768.0,
+  "elev_max_m": 3635.443115234375,
+  "encoding": "RG16",
+  "decode": {
+    "value_u16": "v = R*256 + G",
+    "elev_m": "elev = elev_min_m + (v/65535)*(elev_max_m - elev_min_m)"
+  },
+  "stats": {
+    "valid_px": 504217,
+    "total_px": 746200,
+    "valid_frac": 0.6757129455909944
+  },
+  "inputs": {
+    "meta": "/home/t/Downloads/peaksv2blur/web/bogota-plate/public/bogota/bounds_rotcrop.json",
+    "aoi_mask": "/home/t/Downloads/peaksv2blur/web/bogota-plate/public/bogota/aoi_mask_rotcrop.png",
+    "dem": "/home/t/Downloads/peaksv2blur/web/bogota-plate/public/bogota/bogota_raw_srtm.tif"
+  },
+  "notes": [
+    "This image is aligned 1:1 with hillshade_paper_rotcrop.webp pixel space.",
+    "Alpha channel is AOI alpha; outside AOI alpha is 0."
+  ],
+  "WARNING": [
+    "This script requires bounds_rotcrop.json to contain pre_squish_W/pre_squish_H if squished=true.",
+    "If missing, either add those fields in bake.py OR re-run bake.py with squish disabled."
+  ]
+}

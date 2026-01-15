@@ -1,0 +1,29 @@
+{
+  "fitted_affine": {
+    "matrix": [
+      [
+        -1941.7590868167877,
+        -3637.716766882768,
+        -126700.18177509517
+      ],
+      [
+        -5820.800459897152,
+        2314.1675486959575,
+        -441312.68966692145
+      ]
+    ],
+    "description": "Direct lon,lat -> x,y affine transform fitted to calibration points"
+  },
+  "current_transform_errors": {
+    "mean_px": 1626.8475771406236,
+    "max_px": 1805.320081676531,
+    "std_px": 104.31575177804407
+  },
+  "fitted_transform_quality": {
+    "mean_residual_px": 2.317797809163624,
+    "max_residual_px": 4.260531656225405,
+    "rms_residual_px": 2.572264282491614
+  },
+  "calibration_source": "calibration.json",
+  "original_meta": "public/bogota/bounds_rotcrop.json"
+}

@@ -1,0 +1,74 @@
+{
+  "image_dimensions": {
+    "width": 910,
+    "height": 820
+  },
+  "calibration_points": [
+    {
+      "name": "Cerro Aguanoso",
+      "pixel": {
+        "x": 446.8338128510755,
+        "y": 326.012293924716
+      },
+      "geographic": {
+        "lon": -74.0530564932502,
+        "lat": 4.5756372536976135
+      },
+      "verified": false
+    },
+    {
+      "name": "Alto de la Viga",
+      "pixel": {
+        "x": 418.336758460063,
+        "y": 220.00130324290276
+      },
+      "geographic": {
+        "lon": -74.0356,
+        "lat": 4.5747
+      },
+      "verified": false
+    },
+    {
+      "name": "Guadalupe Peak",
+      "pixel": {
+        "x": 389.8397040690505,
+        "y": 368.1887095723191
+      },
+      "geographic": {
+        "lon": -74.0544,
+        "lat": 4.5919
+      },
+      "verified": false
+    },
+    {
+      "name": "Monserrate Peak",
+      "pixel": {
+        "x": 347.6640635703521,
+        "y": 406.94541584308956
+      },
+      "geographic": {
+        "lon": -74.0555,
+        "lat": 4.6057
+      },
+      "verified": false
+    },
+    {
+      "name": "Proxy Cerro el Cable",
+      "pixel": {
+        "x": 245.0746677627072,
+        "y": 436.5828971089728
+      },
+      "geographic": {
+        "lon": -74.05069904899496,
+        "lat": 4.62971708571464
+      },
+      "verified": false
+    }
+  ],
+  "timestamp": "2026-01-14T00:43:55.109Z",
+  "notes": [
+    "Click points on the image to calibrate",
+    "Match visual features to known coordinates",
+    "Use this to verify/fix the rotation transform"
+  ]
+}

@@ -1,0 +1,1399 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+  "type": "Feature",
+  "id": "node/343124845",
+  "properties": {
+    "name": "Pico del aguila",
+    "natural": "peak",
+    "id": "node/343124845"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0524293,
+      4.6160214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/349432002",
+  "properties": {
+    "ele": "3317",
+    "name": "Cerro de Guadalupe",
+    "natural": "peak",
+    "wikidata": "Q152071",
+    "wikimedia_commons": "Category:Cerros de Guadalupe y Aguanoso",
+    "wikipedia": "es:Cerro de Guadalupe",
+    "id": "node/349432002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0545761,
+      4.5914271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/496818496",
+  "properties": {
+    "gns_classification": "MT",
+    "gns_uni": "-833091",
+    "name": "Alto de La Teta",
+    "natural": "peak",
+    "source": "GNS",
+    "id": "node/496818496"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0737913,
+      4.5205821
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/496818603",
+  "properties": {
+    "gns_classification": "MT",
+    "gns_uni": "6181738",
+    "name": "Peña Negra",
+    "natural": "peak",
+    "source": "GNS",
+    "id": "node/496818603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9926438,
+      4.5312262
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/496818817",
+  "properties": {
+    "gns_classification": "MT",
+    "gns_uni": "6181529",
+    "name": "Alto de La Caja",
+    "natural": "peak",
+    "source": "GNS",
+    "id": "node/496818817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.96,
+      4.5125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/496818968",
+  "properties": {
+    "gns_classification": "MT",
+    "gns_uni": "6181524",
+    "is_in": "Departamento de Cundinamarca",
+    "is_in:country": "Colombia",
+    "is_in:country_code": "CO",
+    "name": "Peñas de La Bolsa",
+    "natural": "peak",
+    "source": "GNS",
+    "id": "node/496818968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9649906,
+      4.5780534
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/496818976",
+  "properties": {
+    "ele": "3547",
+    "gns_classification": "MT",
+    "gns_uni": "6181208",
+    "name": "Cerro de Bocatorta",
+    "natural": "peak",
+    "note": "No hay claridad de fuentes; podría ser el cerro Peña Azul",
+    "source": "survey",
+    "id": "node/496818976"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.980283,
+      4.5397797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340136",
+  "properties": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25178",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Alto Del Agua",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 88d26f8b11744536427e3d57a4ee5d94",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340136"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0567604,
+      4.4666832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340137",
+  "properties": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25178",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Alto De Peña Negra",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, b01f00262036217de97ecc39a1e4b8fe",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340137"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0480712,
+      4.4615628
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340147",
+  "properties": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25178",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "is_in": "Colombia; Cundinamarca ; Chipaque",
+    "name": "Alto De Las Ninfas",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 61c61e67feb4f41a128ffdcaa606caf0",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340147"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0514848,
+      4.5078019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340152",
+  "properties": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25841",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "is_in": "Colombia; Cundinamarca ; Ubaqué",
+    "name": "Alto De Emira",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, b3976b1d6dddb17bbda504821face860",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340152"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0213828,
+      4.5386798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340174",
+  "properties": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25178",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Alto Del Rodadero",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, ec797210cac41925a8bf3c4b738b02c5",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340174"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9811304,
+      4.4609112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340178",
+  "properties": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25841",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Cuchilla De Buenavista",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 512bfc72490fdf740a094bf1b3bb01d6",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340178"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9790227,
+      4.4696313
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340243",
+  "properties": {
+    "comment": "Hay contradiccion de fuentes; podría ser el cerro Bocatorta. Quien cuenta con una peña vertical de de aspecto \"azul\", es este cerro.",
+    "divipola": "25181",
+    "ele": "3570",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Peña Azul",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 55eca42ed01d3e763a3cee9fad05f9a8",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9683187,
+      4.5411017
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340729",
+  "properties": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25181",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "is_in": "Colombia; Cundinamarca ; Choachí",
+    "name": "Cuchilla Casaleras",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 7041d723a9c9c3cb9d103252ad6fcbe3",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9810285,
+      4.6295809
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340766",
+  "properties": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25377",
+    "is_in": "Colombia;Cundinamarca;La Calera",
+    "name": "La Paloma",
+    "natural": "peak",
+    "note": "GEOPUNTO, PUNTO DE INTERES, 65a6b1fc938b3bcbd07fb3264062c052",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340766"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9818157,
+      4.6823626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/703340767",
+  "properties": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25377",
+    "is_in": "Colombia;Cundinamarca;La Calera",
+    "name": "El Antojo",
+    "natural": "peak",
+    "note": "GEOPUNTO, PUNTO DE INTERES, 56dad8292e769a678e2f29cc02a488b3",
+    "source": "OCHA Colombia 2010",
+    "id": "node/703340767"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.983057,
+      4.6936897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/753633562",
+  "properties": {
+    "ele": "3669",
+    "name": "Alto Los Tunjos",
+    "natural": "peak",
+    "source": "survey",
+    "tourism": "viewpoint",
+    "id": "node/753633562"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0288997,
+      4.5585186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/753703692",
+  "properties": {
+    "ele": "3152",
+    "name": "Cerro de Monserrate",
+    "natural": "peak",
+    "short_name": "Monserrate",
+    "wikidata": "Q152073",
+    "wikimedia_commons": "Category:Monserrate",
+    "wikipedia": "es:Monserrate",
+    "id": "node/753703692"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0554459,
+      4.6060026
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3800083189",
+  "properties": {
+    "ele": "3600",
+    "name": "Cerro El Aguanoso",
+    "natural": "peak",
+    "id": "node/3800083189"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0533394,
+      4.5750988
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4069947164",
+  "properties": {
+    "name": "Cerro Cazadores",
+    "natural": "peak",
+    "id": "node/4069947164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0286366,
+      4.6655105
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4069947165",
+  "properties": {
+    "name": "Alto de la Viga",
+    "natural": "peak",
+    "id": "node/4069947165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0316285,
+      4.5707383
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4124777027",
+  "properties": {
+    "ele": "2790",
+    "name": "Santa Viviana",
+    "natural": "peak",
+    "id": "node/4124777027"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1708061,
+      4.5746118
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4788636960",
+  "properties": {
+    "ele": "3085",
+    "name": "Cerro de la Cruz",
+    "natural": "peak",
+    "summit:cross": "yes",
+    "id": "node/4788636960"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.047191,
+      4.6390909
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5837266109",
+  "properties": {
+    "ele": "2780",
+    "name": "Palo del Ahorcado",
+    "natural": "peak",
+    "id": "node/5837266109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1744316,
+      4.5674083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5883282470",
+  "properties": {
+    "fixme": "Confirmar localizacion",
+    "name": "Cerro de las Tres Cruces",
+    "natural": "peak",
+    "source": "BING",
+    "id": "node/5883282470"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1334087,
+      4.5272066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6855918549",
+  "properties": {
+    "ele": "2832",
+    "name": "Cerro Colorado",
+    "natural": "peak",
+    "id": "node/6855918549"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1622461,
+      4.5594981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6967969384",
+  "properties": {
+    "ele": "2725",
+    "name": "Cerro Guayamayas",
+    "natural": "peak",
+    "id": "node/6967969384"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1039305,
+      4.5559972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6967985485",
+  "properties": {
+    "ele": "2930",
+    "name": "Cerro Juan Rey",
+    "natural": "peak",
+    "id": "node/6967985485"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0973192,
+      4.5354843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6967985486",
+  "properties": {
+    "ele": "2924",
+    "name": "Cerro Cuchilla del Gavilán",
+    "natural": "peak",
+    "id": "node/6967985486"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1020898,
+      4.5202734
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6983496722",
+  "properties": {
+    "natural": "peak",
+    "id": "node/6983496722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1715082,
+      4.5531252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7911563856",
+  "properties": {
+    "name": "Alto Bonito",
+    "natural": "peak",
+    "id": "node/7911563856"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0067118,
+      4.6155047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7911595701",
+  "properties": {
+    "name": "Alto De La Cruz",
+    "natural": "peak",
+    "id": "node/7911595701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9947814,
+      4.6143364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7911596336",
+  "properties": {
+    "name": "Alto Tominejas o Cabras",
+    "natural": "peak",
+    "id": "node/7911596336"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.021928,
+      4.6130558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7911596584",
+  "properties": {
+    "name": "Alto El Perro",
+    "natural": "peak",
+    "id": "node/7911596584"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0203107,
+      4.6021878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7915565317",
+  "properties": {
+    "name": "Cerro El Cable",
+    "natural": "peak",
+    "id": "node/7915565317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0510917,
+      4.6289817
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930180274",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930180274"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.13709,
+      4.4912519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930180275",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930180275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1399372,
+      4.4820921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930180276",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930180276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1465891,
+      4.4699627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195887",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195887"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0753871,
+      4.4771505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195888",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195888"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0752691,
+      4.4853517
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195889",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195889"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0649963,
+      4.4876434
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195890",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195890"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0596533,
+      4.4963498
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195891",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195891"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.056263,
+      4.5083664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195892",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195892"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.05195,
+      4.5124843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195893",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195893"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0421285,
+      4.5114894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195894",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195894"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0411353,
+      4.5189283
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195895",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195895"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0393865,
+      4.5236824
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195896",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195896"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0370476,
+      4.5320195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195897",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195897"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0338183,
+      4.5380623
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195898",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195898"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0312433,
+      4.5448804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195899",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195899"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0327883,
+      4.5816118
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195900",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0329546,
+      4.5880232
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195901",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0313935,
+      4.5974075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195902",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0326703,
+      4.6025728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195903",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0470845,
+      4.6262495
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195904",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0342045,
+      4.6266024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195905",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0281427,
+      4.6197369
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195906",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0368062,
+      4.6199347
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195907",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195907"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.038775,
+      4.6629072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195908",
+  "properties": {
+    "name": "Las Moyas",
+    "natural": "peak",
+    "id": "node/7930195908"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0284874,
+      4.6545436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195909",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0303287,
+      4.6469365
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195910",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195910"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0321311,
+      4.638002
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195911",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195911"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.033432,
+      4.6353927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195912",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195912"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0537202,
+      4.5855046
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195913",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195913"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0697384,
+      4.5428003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195914",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195914"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0714443,
+      4.5350034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195915",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195915"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.073,
+      4.5119548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195916",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0737403,
+      4.5081579
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195917",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0566492,
+      4.5654522
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195919",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930195919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0318495,
+      4.565527
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930195920",
+  "properties": {
+    "ele": "3270",
+    "natural": "peak",
+    "id": "node/7930195920"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0372944,
+      4.6115345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263237",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263237"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1594315,
+      4.5194631
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263239",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263239"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1718447,
+      4.4726475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263240",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263240"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1656488,
+      4.489943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263241",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.1628969,
+      4.4972375
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263256",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263256"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0125376,
+      4.700707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263257",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263257"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0112555,
+      4.6830371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263258",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263258"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0030292,
+      4.6737448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263259",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263259"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0071034,
+      4.6672326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263260",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263260"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9877486,
+      4.6306981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263261",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263261"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0040779,
+      4.5809167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263262",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263262"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -73.9979008,
+      4.5595419
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930263263",
+  "properties": {
+    "natural": "peak",
+    "id": "node/7930263263"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -74.0103382,
+      4.5594149
+    ]
+  }
+}
+]
+}

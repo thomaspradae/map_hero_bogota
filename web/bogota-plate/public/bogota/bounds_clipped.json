@@ -1,0 +1,17 @@
+{
+  "west": -74.1380084788133,
+  "south": 4.508825728838782,
+  "east": -73.9856935211867,
+  "north": 4.689727371161218,
+  "width": 676,
+  "height": 765,
+  "pad_frac_used": 0.08,
+  "source_hillshade": "/home/t/Downloads/peaksv2blur/web/bogota-plate/public/bogota/hillshade.png",
+  "source_aoi": "/home/t/Downloads/peaksv2blur/web/bogota-plate/public/bogota/aoi_localidades.geojson",
+  "bbox_px": {
+    "x0": 53,
+    "y0": 61,
+    "x1": 729,
+    "y1": 826
+  }
+}

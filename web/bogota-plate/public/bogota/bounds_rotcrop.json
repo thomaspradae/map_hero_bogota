@@ -1,0 +1,50 @@
+{
+  "mapping": {
+    "bounds_west": -74.149950332,
+    "bounds_south": 4.494400892,
+    "bounds_east": -73.973751668,
+    "bounds_north": 4.704152208,
+    "src_W": 782,
+    "src_H": 887,
+    "rot_deg": 120.0,
+    "rot_rad": 2.0943951023931953,
+    "rot_canvas_W": 1160,
+    "rot_canvas_H": 1121,
+    "rot_tx": 970.5822665783985,
+    "rot_ty": 1003.8659328797155,
+    "rot_center_x": 579.5,
+    "rot_center_y": 560.0,
+    "src_center_x": 390.5,
+    "src_center_y": 443.0,
+    "crop_x0": 204,
+    "crop_y0": 255,
+    "pre_squish_W": 757,
+    "pre_squish_H": 613,
+    "out_W": 910,
+    "out_H": 820,
+    "squished": true,
+    "target_W": 910,
+    "target_H": 820,
+    "paper_base": [
+      0.975,
+      0.972,
+      0.965
+    ],
+    "hill_alpha": 0.3,
+    "hill_gamma": 0.85,
+    "exposure": 1.0,
+    "clip_smooth_passes": 0,
+    "clip_scale": 1.0
+  },
+  "inputs": {
+    "aoi": "/home/t/Downloads/peaksv2blur/web/bogota-plate/public/bogota/aoi_localidades.geojson",
+    "hillshade": "/home/t/Downloads/peaksv2blur/web/bogota-plate/public/bogota/hillshade.png",
+    "pad_frac": 0.08,
+    "crop_pad_px": 8
+  },
+  "notes": [
+    "hillshade_paper_rotcrop already includes the WebGL 'paper mix' look.",
+    "If squished=true, image was resized to inner rect (910x820 by default) to match original aspect.",
+    "Use mapping to convert final pixel -> rotated pixel -> inverse rotate -> src pixel -> lon/lat."
+  ]
+}

@@ -1,0 +1,902 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.8 e802775f",
+  "osm3s": {
+    "timestamp_osm_base": "2025-12-16T07:20:15Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 343124845,
+  "lat": 4.6160214,
+  "lon": -74.0524293,
+  "tags": {
+    "name": "Pico del aguila",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 349432002,
+  "lat": 4.5914271,
+  "lon": -74.0545761,
+  "tags": {
+    "ele": "3317",
+    "name": "Cerro de Guadalupe",
+    "natural": "peak",
+    "wikidata": "Q152071",
+    "wikimedia_commons": "Category:Cerros de Guadalupe y Aguanoso",
+    "wikipedia": "es:Cerro de Guadalupe"
+  }
+},
+{
+  "type": "node",
+  "id": 496818496,
+  "lat": 4.5205821,
+  "lon": -74.0737913,
+  "tags": {
+    "gns_classification": "MT",
+    "gns_uni": "-833091",
+    "name": "Alto de La Teta",
+    "natural": "peak",
+    "source": "GNS"
+  }
+},
+{
+  "type": "node",
+  "id": 496818603,
+  "lat": 4.5312262,
+  "lon": -73.9926438,
+  "tags": {
+    "gns_classification": "MT",
+    "gns_uni": "6181738",
+    "name": "Peña Negra",
+    "natural": "peak",
+    "source": "GNS"
+  }
+},
+{
+  "type": "node",
+  "id": 496818817,
+  "lat": 4.5125000,
+  "lon": -73.9600000,
+  "tags": {
+    "gns_classification": "MT",
+    "gns_uni": "6181529",
+    "name": "Alto de La Caja",
+    "natural": "peak",
+    "source": "GNS"
+  }
+},
+{
+  "type": "node",
+  "id": 496818968,
+  "lat": 4.5780534,
+  "lon": -73.9649906,
+  "tags": {
+    "gns_classification": "MT",
+    "gns_uni": "6181524",
+    "is_in": "Departamento de Cundinamarca",
+    "is_in:country": "Colombia",
+    "is_in:country_code": "CO",
+    "name": "Peñas de La Bolsa",
+    "natural": "peak",
+    "source": "GNS"
+  }
+},
+{
+  "type": "node",
+  "id": 496818976,
+  "lat": 4.5397797,
+  "lon": -73.9802830,
+  "tags": {
+    "ele": "3547",
+    "gns_classification": "MT",
+    "gns_uni": "6181208",
+    "name": "Cerro de Bocatorta",
+    "natural": "peak",
+    "note": "No hay claridad de fuentes; podría ser el cerro Peña Azul",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 703340136,
+  "lat": 4.4666832,
+  "lon": -74.0567604,
+  "tags": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25178",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Alto Del Agua",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 88d26f8b11744536427e3d57a4ee5d94",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 703340137,
+  "lat": 4.4615628,
+  "lon": -74.0480712,
+  "tags": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25178",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Alto De Peña Negra",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, b01f00262036217de97ecc39a1e4b8fe",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 703340147,
+  "lat": 4.5078019,
+  "lon": -74.0514848,
+  "tags": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25178",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "is_in": "Colombia; Cundinamarca ; Chipaque",
+    "name": "Alto De Las Ninfas",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 61c61e67feb4f41a128ffdcaa606caf0",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 703340152,
+  "lat": 4.5386798,
+  "lon": -74.0213828,
+  "tags": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25841",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "is_in": "Colombia; Cundinamarca ; Ubaqué",
+    "name": "Alto De Emira",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, b3976b1d6dddb17bbda504821face860",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 703340174,
+  "lat": 4.4609112,
+  "lon": -73.9811304,
+  "tags": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25178",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Alto Del Rodadero",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, ec797210cac41925a8bf3c4b738b02c5",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 703340178,
+  "lat": 4.4696313,
+  "lon": -73.9790227,
+  "tags": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25841",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Cuchilla De Buenavista",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 512bfc72490fdf740a094bf1b3bb01d6",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 703340243,
+  "lat": 4.5411017,
+  "lon": -73.9683187,
+  "tags": {
+    "comment": "Hay contradiccion de fuentes; podría ser el cerro Bocatorta. Quien cuenta con una peña vertical de de aspecto \"azul\", es este cerro.",
+    "divipola": "25181",
+    "ele": "3570",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "name": "Peña Azul",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 55eca42ed01d3e763a3cee9fad05f9a8",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 703340729,
+  "lat": 4.6295809,
+  "lon": -73.9810285,
+  "tags": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25181",
+    "fixme": "Revisar: este punto fue creado por importación directa",
+    "is_in": "Colombia; Cundinamarca ; Choachí",
+    "name": "Cuchilla Casaleras",
+    "natural": "peak",
+    "note": "OROGRAFIA, MONTAÑAS Y CERROS, 7041d723a9c9c3cb9d103252ad6fcbe3",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 703340766,
+  "lat": 4.6823626,
+  "lon": -73.9818157,
+  "tags": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25377",
+    "is_in": "Colombia;Cundinamarca;La Calera",
+    "name": "La Paloma",
+    "natural": "peak",
+    "note": "GEOPUNTO, PUNTO DE INTERES, 65a6b1fc938b3bcbd07fb3264062c052",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 703340767,
+  "lat": 4.6936897,
+  "lon": -73.9830570,
+  "tags": {
+    "comment": "convertido a OSM usando http://GaleNUx.com",
+    "divipola": "25377",
+    "is_in": "Colombia;Cundinamarca;La Calera",
+    "name": "El Antojo",
+    "natural": "peak",
+    "note": "GEOPUNTO, PUNTO DE INTERES, 56dad8292e769a678e2f29cc02a488b3",
+    "source": "OCHA Colombia 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 753633562,
+  "lat": 4.5585186,
+  "lon": -74.0288997,
+  "tags": {
+    "ele": "3669",
+    "name": "Alto Los Tunjos",
+    "natural": "peak",
+    "source": "survey",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 753703692,
+  "lat": 4.6060026,
+  "lon": -74.0554459,
+  "tags": {
+    "ele": "3152",
+    "name": "Cerro de Monserrate",
+    "natural": "peak",
+    "short_name": "Monserrate",
+    "wikidata": "Q152073",
+    "wikimedia_commons": "Category:Monserrate",
+    "wikipedia": "es:Monserrate"
+  }
+},
+{
+  "type": "node",
+  "id": 3800083189,
+  "lat": 4.5750988,
+  "lon": -74.0533394,
+  "tags": {
+    "ele": "3600",
+    "name": "Cerro El Aguanoso",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 4069947164,
+  "lat": 4.6655105,
+  "lon": -74.0286366,
+  "tags": {
+    "name": "Cerro Cazadores",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 4069947165,
+  "lat": 4.5707383,
+  "lon": -74.0316285,
+  "tags": {
+    "name": "Alto de la Viga",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 4124777027,
+  "lat": 4.5746118,
+  "lon": -74.1708061,
+  "tags": {
+    "ele": "2790",
+    "name": "Santa Viviana",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 4788636960,
+  "lat": 4.6390909,
+  "lon": -74.0471910,
+  "tags": {
+    "ele": "3085",
+    "name": "Cerro de la Cruz",
+    "natural": "peak",
+    "summit:cross": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5837266109,
+  "lat": 4.5674083,
+  "lon": -74.1744316,
+  "tags": {
+    "ele": "2780",
+    "name": "Palo del Ahorcado",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 5883282470,
+  "lat": 4.5272066,
+  "lon": -74.1334087,
+  "tags": {
+    "fixme": "Confirmar localizacion",
+    "name": "Cerro de las Tres Cruces",
+    "natural": "peak",
+    "source": "BING"
+  }
+},
+{
+  "type": "node",
+  "id": 6855918549,
+  "lat": 4.5594981,
+  "lon": -74.1622461,
+  "tags": {
+    "ele": "2832",
+    "name": "Cerro Colorado",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 6967969384,
+  "lat": 4.5559972,
+  "lon": -74.1039305,
+  "tags": {
+    "ele": "2725",
+    "name": "Cerro Guayamayas",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 6967985485,
+  "lat": 4.5354843,
+  "lon": -74.0973192,
+  "tags": {
+    "ele": "2930",
+    "name": "Cerro Juan Rey",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 6967985486,
+  "lat": 4.5202734,
+  "lon": -74.1020898,
+  "tags": {
+    "ele": "2924",
+    "name": "Cerro Cuchilla del Gavilán",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 6983496722,
+  "lat": 4.5531252,
+  "lon": -74.1715082,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7911563856,
+  "lat": 4.6155047,
+  "lon": -74.0067118,
+  "tags": {
+    "name": "Alto Bonito",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7911595701,
+  "lat": 4.6143364,
+  "lon": -73.9947814,
+  "tags": {
+    "name": "Alto De La Cruz",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7911596336,
+  "lat": 4.6130558,
+  "lon": -74.0219280,
+  "tags": {
+    "name": "Alto Tominejas o Cabras",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7911596584,
+  "lat": 4.6021878,
+  "lon": -74.0203107,
+  "tags": {
+    "name": "Alto El Perro",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7915565317,
+  "lat": 4.6289817,
+  "lon": -74.0510917,
+  "tags": {
+    "name": "Cerro El Cable",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930180274,
+  "lat": 4.4912519,
+  "lon": -74.1370900,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930180275,
+  "lat": 4.4820921,
+  "lon": -74.1399372,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930180276,
+  "lat": 4.4699627,
+  "lon": -74.1465891,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195887,
+  "lat": 4.4771505,
+  "lon": -74.0753871,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195888,
+  "lat": 4.4853517,
+  "lon": -74.0752691,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195889,
+  "lat": 4.4876434,
+  "lon": -74.0649963,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195890,
+  "lat": 4.4963498,
+  "lon": -74.0596533,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195891,
+  "lat": 4.5083664,
+  "lon": -74.0562630,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195892,
+  "lat": 4.5124843,
+  "lon": -74.0519500,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195893,
+  "lat": 4.5114894,
+  "lon": -74.0421285,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195894,
+  "lat": 4.5189283,
+  "lon": -74.0411353,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195895,
+  "lat": 4.5236824,
+  "lon": -74.0393865,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195896,
+  "lat": 4.5320195,
+  "lon": -74.0370476,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195897,
+  "lat": 4.5380623,
+  "lon": -74.0338183,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195898,
+  "lat": 4.5448804,
+  "lon": -74.0312433,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195899,
+  "lat": 4.5816118,
+  "lon": -74.0327883,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195900,
+  "lat": 4.5880232,
+  "lon": -74.0329546,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195901,
+  "lat": 4.5974075,
+  "lon": -74.0313935,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195902,
+  "lat": 4.6025728,
+  "lon": -74.0326703,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195903,
+  "lat": 4.6262495,
+  "lon": -74.0470845,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195904,
+  "lat": 4.6266024,
+  "lon": -74.0342045,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195905,
+  "lat": 4.6197369,
+  "lon": -74.0281427,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195906,
+  "lat": 4.6199347,
+  "lon": -74.0368062,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195907,
+  "lat": 4.6629072,
+  "lon": -74.0387750,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195908,
+  "lat": 4.6545436,
+  "lon": -74.0284874,
+  "tags": {
+    "name": "Las Moyas",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195909,
+  "lat": 4.6469365,
+  "lon": -74.0303287,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195910,
+  "lat": 4.6380020,
+  "lon": -74.0321311,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195911,
+  "lat": 4.6353927,
+  "lon": -74.0334320,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195912,
+  "lat": 4.5855046,
+  "lon": -74.0537202,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195913,
+  "lat": 4.5428003,
+  "lon": -74.0697384,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195914,
+  "lat": 4.5350034,
+  "lon": -74.0714443,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195915,
+  "lat": 4.5119548,
+  "lon": -74.0730000,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195916,
+  "lat": 4.5081579,
+  "lon": -74.0737403,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195917,
+  "lat": 4.5654522,
+  "lon": -74.0566492,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195919,
+  "lat": 4.5655270,
+  "lon": -74.0318495,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930195920,
+  "lat": 4.6115345,
+  "lon": -74.0372944,
+  "tags": {
+    "ele": "3270",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263237,
+  "lat": 4.5194631,
+  "lon": -74.1594315,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263239,
+  "lat": 4.4726475,
+  "lon": -74.1718447,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263240,
+  "lat": 4.4899430,
+  "lon": -74.1656488,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263241,
+  "lat": 4.4972375,
+  "lon": -74.1628969,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263256,
+  "lat": 4.7007070,
+  "lon": -74.0125376,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263257,
+  "lat": 4.6830371,
+  "lon": -74.0112555,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263258,
+  "lat": 4.6737448,
+  "lon": -74.0030292,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263259,
+  "lat": 4.6672326,
+  "lon": -74.0071034,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263260,
+  "lat": 4.6306981,
+  "lon": -73.9877486,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263261,
+  "lat": 4.5809167,
+  "lon": -74.0040779,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263262,
+  "lat": 4.5595419,
+  "lon": -73.9979008,
+  "tags": {
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 7930263263,
+  "lat": 4.5594149,
+  "lon": -74.0103382,
+  "tags": {
+    "natural": "peak"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    html,body,#map{height:100%;margin:0}
+    .loc-label{
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      color: #111;
+      font: 12px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+
+<script>
+  // ---------- name normalization (accent-insensitive) ----------
+  function stripAccents(s) {
+    return (s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  }
+  function normName(s) {
+    return stripAccents(String(s)).toLowerCase().trim();
+  }
+
+  const REMOVE_LOCALIDADES = new Set([
+    "usaquen",
+    "suba",
+    "engativa",
+    "fontibon",
+    "kennedy",
+    "bosa",
+    "ciudad bolivar",
+    "sumapaz",
+    "tunjuelito",
+    "usme",
+  ].map(normName));
+
+  // ---------- map ----------
+  const map = L.map("map", { preferCanvas: true }).setView([4.65, -74.08], 11);
+
+  const tiles = L.tileLayer(
+    "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+    { maxZoom: 20 }
+  ).addTo(map);
+
+  // ---------- layers ----------
+  const layerBuffered = L.geoJSON(null, {
+    style: { color: "#1f6feb", weight: 3, fillColor: "#1f6feb", fillOpacity: 0.12 }
+  }).addTo(map);
+
+  const layerBogota = L.geoJSON(null, {
+    style: { color: "#111", weight: 2, fillOpacity: 0.03 }
+  }).addTo(map);
+
+  const layerLocalidades = L.geoJSON(null, {
+    style: { color: "rgba(0,0,0,0.35)", weight: 1, fillOpacity: 0.0 },
+    onEachFeature: (feature, layer) => {
+      const name = feature?.properties?.name ?? "";
+      if (!name) return;
+
+      layer.bindTooltip(name, {
+        permanent: true,
+        direction: "center",
+        className: "loc-label",
+        opacity: 0.9
+      });
+
+      layer.on("mouseover", () => layer.setStyle({ weight: 2, color: "rgba(0,0,0,0.7)" }));
+      layer.on("mouseout",  () => layer.setStyle({ weight: 1, color: "rgba(0,0,0,0.35)" }));
+    }
+  }).addTo(map);
+
+  const layerProtected = L.geoJSON(null, {
+    style: { color: "#d97706", weight: 2, fillOpacity: 0.05, dashArray: "6,6" }
+  });
+
+  // ---------- loaders ----------
+  async function loadGeoJSON(path, layer) {
+    const r = await fetch(path);
+    if (!r.ok) throw new Error(`Failed ${path}: ${r.status}`);
+    const gj = await r.json();
+    layer.addData(gj);
+    return layer;
+  }
+
+  async function loadLocalidadesFiltered(path, layer) {
+    const r = await fetch(path);
+    if (!r.ok) throw new Error(`Failed ${path}: ${r.status}`);
+    const gj = await r.json();
+
+    const filtered = {
+      ...gj,
+      features: (gj.features || []).filter(f => {
+        const name = f?.properties?.name ?? "";
+        return !REMOVE_LOCALIDADES.has(normName(name));
+      }),
+    };
+
+    layer.addData(filtered);
+    return layer;
+  }
+
+  // ---------- main ----------
+  (async () => {
+    await loadGeoJSON("./buffered.geojson", layerBuffered);
+    await loadGeoJSON("./bogota_boundary.geojson", layerBogota);
+    await loadLocalidadesFiltered("./bogota_localidades.geojson", layerLocalidades);
+
+    // optional protected areas
+    // await loadGeoJSON("./bogota_protected_areas_filtered.geojson", layerProtected);
+    // layerProtected.addTo(map);
+
+    const b = layerBuffered.getBounds();
+    if (b.isValid()) map.fitBounds(b);
+    else map.fitBounds(layerBogota.getBounds());
+  })().catch(err => {
+    console.error(err);
+    alert(err.message);
+  });
+
+  // ---------- toggles ----------
+  L.control.layers(
+    { "Basemap": tiles },
+    {
+      "Buffered chip": layerBuffered,
+      "Bogotá boundary": layerBogota,
+      "Localidades": layerLocalidades,
+      "Protected areas": layerProtected
+    },
+    { collapsed: false }
+  ).addTo(map);
+</script>
+</body>
+</html>
